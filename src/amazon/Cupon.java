@@ -74,7 +74,7 @@ public class Cupon {
 	public int getMovimientoCuponGastar() {
 		return movimientoCuponGastar;
 	}
-
+	// Metodos
 	public void aniadirSaldo(double saldo) {
 		// SI EL SALDO ES MENOR A 0, ERROR
 		if (saldo < 0) {
@@ -90,7 +90,7 @@ public class Cupon {
 
 	}
 
-	// Metodos
+
 	public void gastarSaldo(double cantidad) {
 		// SI QUIERES RETIRAR MAS DINERO DEL QUE HAY EN EL CUPON,ERROR
 		if (cantidad > saldo) {
